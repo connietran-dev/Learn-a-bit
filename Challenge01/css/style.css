@@ -1,5 +1,5 @@
-/** COLORS **/
-/** BREAKPOINTS **/
+/** VARIABLES **/
+/** GLOBAL RESETS **/
 *,
 *::after,
 *::before {
@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
+/** TYPOGRAPHY **/
 body,
 a {
   color: #F1FFF6;
@@ -22,6 +23,7 @@ a {
 p {
   font-family: 'Rubik', sans-serif; }
 
+/** LAYOUT **/
 .navigation,
 main {
   padding: 1rem 10rem; }

@@ -1,4 +1,20 @@
-// GLOBAL RESETS
+/** VARIABLES **/
+
+// COLORS
+
+$color-primary-1: #24E5A3;
+$color-primary-2: #5EF4D6;
+
+$color-secondary-1: #4143B1;
+$color-secondary-2: #221727;
+
+$color-white: #F1FFF6;
+
+// BREAKPOINTS
+$breakpoint-mobile: 37.5em; // 500px / 16px
+
+
+/** GLOBAL RESETS **/
 *,
 *::after,
 *::before {
@@ -14,7 +30,7 @@ body {
     background-attachment: fixed;
 }
 
-// TYPOGRAPHY
+/** TYPOGRAPHY **/
 body, 
 a {
     color: $color-white;
@@ -27,7 +43,7 @@ p {
 }
 
 
-// LAYOUT
+/** LAYOUT **/
 .navigation, 
 main {
     padding: 1rem 10rem;

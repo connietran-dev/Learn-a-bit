@@ -4,14 +4,15 @@
 
 ## Live Site
 
+Check out the live site on Netlify here:
 https://connielearns1.netlify.app/
 
 Desktop:
-<img src="learn-challenge-desktop.png" />
+<img src="./images/learn-challenge-desktop.png" />
 
 Mobile:
 
-<img src="learn-challenge-mobile.png" />
+<img src="./images/learn-challenge-mobile.png" />
 
 
 ## Introduction
