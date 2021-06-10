@@ -8,6 +8,7 @@ Desktop:
 <img src="learn-challenge-desktop.png" />
 
 Mobile:
+
 <img src="learn-challenge-mobile.png" />
 
 
