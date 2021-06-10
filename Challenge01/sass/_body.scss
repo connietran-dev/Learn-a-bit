@@ -9,6 +9,8 @@
     font-family: 'Rubik', sans-serif;
     font-size: 1.5rem;
     text-transform: uppercase;
+
+    // TODO: Make button full width on mobile
 }
 
 .card {
@@ -18,8 +20,16 @@
 
     background-color: rgba(0,0,0, 0.45);
 
-    border: 2px solid $color-primary-1;
+    border: 2.5px solid $color-primary-1;
     border-radius: 8px;
+
+    // TODO: Create small box-shadow
+
+    @media only screen and (max-width: $breakpoint-mobile) {
+        padding: 2rem;
+        max-width: 100%;
+        margin: 3vh auto;
+    }
 
     &__header {
         margin-bottom: 2rem;

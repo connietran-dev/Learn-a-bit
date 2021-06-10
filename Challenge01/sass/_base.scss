@@ -14,14 +14,6 @@ body {
     background-attachment: fixed;
 }
 
-html, 
-button {
-    /* Root font-size - This defines what 1rem is */
-    /* The default browser size is 16px */
-    /* A percentage allows user to zoom */
-    font-size: 100%;     /* To get 10px, take 10/16 = 0.625; thus, 1rem = 10px by default */
-}
-
 // TYPOGRAPHY
 body, 
 a {
@@ -39,4 +31,8 @@ p {
 .navigation, 
 main {
     padding: 1rem 10rem;
+
+    @media only screen and (max-width: $breakpoint-mobile) {
+        padding: 1rem;
+    }
 }
