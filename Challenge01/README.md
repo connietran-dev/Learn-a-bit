@@ -2,6 +2,15 @@
 
 [Learn-a-bit Guidebook](https://sites.google.com/mintbean.io/mintbean-learn-a-bit-guide/about-learn-a-bit)
 
+## Screenshots
+
+Desktop:
+<img src="learn-challenge-desktop.png" />
+
+Mobile:
+<img src="learn-challenge-mobile.png" />
+
+
 ## Introduction
 
 As the name says, the purpose of Learn-a-bit is about learning one bit of code at a time.
