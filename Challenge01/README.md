@@ -2,7 +2,9 @@
 
 [Learn-a-bit Guidebook](https://sites.google.com/mintbean.io/mintbean-learn-a-bit-guide/about-learn-a-bit)
 
-## Screenshots
+## Live Site
+
+https://connielearns1.netlify.app/
 
 Desktop:
 <img src="learn-challenge-desktop.png" />
