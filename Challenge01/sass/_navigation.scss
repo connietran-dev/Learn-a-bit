@@ -4,11 +4,48 @@
 
     background-color: $color-secondary-2;
     font-size: 1.5rem;
+
+    // Hamburger icon for mobile
+    &__icon {
+
+        // Hide hamburger on desktop
+        opacity: 0;
+
+        position: relative;
+        margin-top: 1.5rem;
+
+        &,
+        &::before, 
+        &::after {
+            width: 1.5rem;
+            height: 2px;
+            background-color: $color-primary-1;
+            display: inline-block;
+        }
+
+        &::before, 
+        &::after {
+            content: "";
+            position: absolute; // position relative to just the icon
+            left: 0;
+
+            transition: all .3s;
+        }
+
+        &::before { top: -.5rem; }
+        &::after { top: .5rem; }
+
+        // Display hamburger icon on mobile
+        @media only screen and (max-width: $breakpoint-mobile) {
+            opacity: 1;
+        }
+    }
     
     &__nav {
         display: flex;
         align-items: center;
 
+        // Hide full navigation on mobile
         @media only screen and (max-width: $breakpoint-mobile) {
             display: none;
         }
