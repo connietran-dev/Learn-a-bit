@@ -1,0 +1,42 @@
+// Global resets
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url('../images/mintbean-dome.png');
+}
+
+html, 
+button {
+    /* Root font-size - This defines what 1rem is */
+    /* The default browser size is 16px */
+    /* A percentage allows user to zoom */
+    font-size: 100%;     /* To get 10px, take 10/16 = 0.625; thus, 1rem = 10px by default */
+}
+
+body, 
+a {
+    color: $color-white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
+.button {
+    padding: .5rem 1.5rem;
+
+    background-color: $color-primary-2;
+    border: none;
+    border-radius: 8px;
+
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}

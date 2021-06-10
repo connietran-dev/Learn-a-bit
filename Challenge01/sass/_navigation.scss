@@ -1,0 +1,34 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1rem 9rem;
+
+    background-color: $color-secondary-2;
+    font-size: 1.5rem;
+    
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+        margin-right: 1rem;
+    }
+    
+    &__item {
+        padding: 0 .5rem;
+
+        &:not(:last-child) {
+            border-right: 2px solid $color-white;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+}

@@ -1,1 +1,56 @@
 /** COLORS **/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  background-image: url("../images/mintbean-dome.png"); }
+
+html,
+button {
+  /* Root font-size - This defines what 1rem is */
+  /* The default browser size is 16px */
+  /* A percentage allows user to zoom */
+  font-size: 100%;
+  /* To get 10px, take 10/16 = 0.625; thus, 1rem = 10px by default */ }
+
+body,
+a {
+  color: #F1FFF6;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300; }
+
+p {
+  font-family: 'Rubik', sans-serif; }
+
+.button {
+  padding: .5rem 1.5rem;
+  background-color: #5EF4D6;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 9rem;
+  background-color: #221727;
+  font-size: 1.5rem; }
+  .navigation__nav {
+    display: flex;
+    align-items: center; }
+  .navigation__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 1rem; }
+  .navigation__item {
+    padding: 0 .5rem; }
+    .navigation__item:not(:last-child) {
+      border-right: 2px solid #F1FFF6; }
+  .navigation__link {
+    text-decoration: none; }
