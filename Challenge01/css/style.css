@@ -7,7 +7,10 @@
   box-sizing: inherit; }
 
 body {
-  background-image: url("../images/mintbean-dome.png"); }
+  background-image: url("../images/mintbean-dome.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 html,
 button {
@@ -26,18 +29,39 @@ a {
 p {
   font-family: 'Rubik', sans-serif; }
 
+.navigation,
+main {
+  padding: 1rem 10rem; }
+
 .button {
   padding: .5rem 1.5rem;
   background-color: #5EF4D6;
   border: none;
   border-radius: 8px;
-  text-transform: uppercase;
-  font-family: 'Rubik', sans-serif; }
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase; }
+
+.card {
+  padding: 3rem;
+  margin: 10vh 0;
+  max-width: 50%;
+  background-color: rgba(0, 0, 0, 0.45);
+  border: 2px solid #24E5A3;
+  border-radius: 8px; }
+  .card__header {
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+    text-transform: uppercase; }
+  .card__text {
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.4; }
 
 .navigation {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 9rem;
   background-color: #221727;
   font-size: 1.5rem; }
   .navigation__nav {
