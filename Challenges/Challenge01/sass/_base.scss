@@ -11,6 +11,7 @@ $color-secondary-2: #221727;
 $color-white: #F1FFF6;
 
 // BREAKPOINTS
+$breakpoint-desktop: 75em; // 1200px / 16px
 $breakpoint-mobile: 37.5em; // 500px / 16px
 
 
@@ -23,7 +24,9 @@ $breakpoint-mobile: 37.5em; // 500px / 16px
     box-sizing: inherit;
 }
 
-body {
+.header {
+    min-height: 100vh;
+
     background-image: url('../images/mintbean-dome.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -42,13 +45,22 @@ p {
     font-family: 'Rubik', sans-serif;
 }
 
+.heading-secondary {
+    font-size: 2rem;
+    color: $color-primary-2;
+    text-transform: uppercase;
+}
+
 
 /** LAYOUT **/
-.navigation, 
-main {
+.container {
     padding: 1rem 10rem;
 
     @media only screen and (max-width: $breakpoint-mobile) {
         padding: 1rem;
     }
+}
+
+.utility-center-text {
+    text-align: center;
 }

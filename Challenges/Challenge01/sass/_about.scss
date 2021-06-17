@@ -1,0 +1,13 @@
+.about {
+    background-color: $color-secondary-1;
+}
+
+.fullcard {
+    &__image {
+        max-width: 100%;
+    }
+
+    @media only screen and (min-width: $breakpoint-desktop) {   
+        max-width: 50%;
+    }
+}

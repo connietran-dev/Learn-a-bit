@@ -1,65 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mintbean Learn-a-bit Challenge 01 - Header</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mintbean Learn-a-bit Challenge 01</title>
 
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
 
-  </head>
+  <link rel="stylesheet" href="css/style.css">
 
-  <body>
-    <!-- TODO: Add to <header> -->
-    <!-- TODO: Give class="hero" to hero -->
-    <!-- TODO: Make logo a link -->
+</head>
 
+<body>
+  <!-- TODO: Give class="hero" to hero -->
+  <!-- TODO: Make logo a link -->
+
+  <header class="header">
     <nav class="navigation">
-      <div class="navigation__logo">
-        <img src="/images/learnabit-logo.png" alt="MintBean.io Learn-a-bit logo">
+
+      <div class="container">
+        <div class="navigation__logo">
+          <img src="/images/learnabit-logo.png" alt="MintBean.io Learn-a-bit logo">
+        </div>
+  
+        <!-- Hamburger icon -->
+        <span class="navigation__icon">&nbsp;</span>
+  
+        <div class="navigation__nav">
+  
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link">Intro</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Team</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+          </ul>
+  
+          <button class="button">Join</button>
+  
+        </div>
       </div>
 
-      <!-- Hamburger icon -->
-      <span class="navigation__icon">&nbsp;</span>
-
-      <div class="navigation__nav">
-      
-        <ul class="navigation__list">
-          <li class="navigation__item"><a href="#" class="navigation__link">Intro</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">Team</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
-        </ul>
-
-        <button class="button">Join</button>
-      
-      </div>
     </nav>
     <section>
-      <article class="card">
-        <h1 class="card__header">Level up bit by bit with Learn-a-bit</h1>
-    
-        <p class="card__text">
-          As the name says, the purpose of
-          Learn-a-bit is about learning one bit
-          of code at a time. In these events,
-          you will build small projects to
-          educate yourself on the fundamentals
-          of web development using HTML, CSS,
-          and JavaScript. These events are
-          relaxed and non-competitive, but are
-          still chalennging enough to push you
-          to use all your resources and
-          knowledge to solve each problem.
-        </p>
-
-        <button class="button">Join a learn-a-ton</button>
-      </article>
+      <div class="container">
+        <article class="card card--half">
+          <h1 class="card__header">Level up bit by bit with Learn-a-bit</h1>
+  
+          <p class="card__text">
+            As the name says, the purpose of
+            Learn-a-bit is about learning one bit
+            of code at a time. In these events,
+            you will build small projects to
+            educate yourself on the fundamentals
+            of web development using HTML, CSS,
+            and JavaScript. These events are
+            relaxed and non-competitive, but are
+            still chalennging enough to push you
+            to use all your resources and
+            knowledge to solve each problem.
+          </p>
+  
+          <button class="button">Join a learn-a-ton</button>
+        </article>
+      </div>
     </section>
-  </body>
+  </header>
+
+  <section class="about">
+    <h2 class="heading-secondary utility-center-text">What is it about?</h2>
+
+    <div class="container">
+      <article class="card card--full fullcard">
+
+        <img class="fullcard__image" src="./images/mintbean-dome.png" alt="Mintbean dome">
+
+        <section class="fullcard__content">
+          <h3 class="card__header">What is learn-a-bit about?</h3>
+    
+          <p class="card__text">
+            Learn-a-bit will teach you the fundamentals through a hands-on approach. You
+            will gain versatility in the basic tools of the trade and learn the best
+            practices for writing semantic HTML and well-designed CSS. You will improve
+            your design skills and start to create attractive and attention-grabbing
+            portfolio pieces while also gaining confidence to tackle any of the harder
+            hackathons.
+          </p>
+    
+          <p class="card__text">
+            In the end, the first impression and presentation of products
+            are the main reason for its success and appeal. Our products represent
+            ourselves and our knowledge so we should make it shine in the best light.
+          </p>
+    
+          <button class="button">Join a learn-a-bit</button>
+        </section>
+
+      </article>
+    </div>
+  </section>
+
+</body>
+
 </html>
